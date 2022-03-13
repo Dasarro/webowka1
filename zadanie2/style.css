@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-width: 240px;
+}
+
+main {
+    display: flex;
+    height: calc(100vh - 70px);
+}
+
+nav {
+    width: 120px;
+    background-color: deepskyblue;
+}
+
+header {
+    height: 70px;
+    background-color: lightblue;
+}
+
+article {
+    background-color: white;
+    width: calc(100vw - 120px);
+    overflow-y: scroll;
+    padding: 0 2em;
+}

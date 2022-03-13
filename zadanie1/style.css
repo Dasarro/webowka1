@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: lightgray;
+}
+
+article {
+    max-width: 1024px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 2em 3em
+}
+
+p {
+    margin-bottom: 2em;
+}
+
+section {
+    margin-bottom: 3em;
+}
